@@ -4,17 +4,21 @@
 
 class Data
 {
-private;
+	private:
 
 int x;
 float y;
 
-public;
-Data()
-void setY (float a);
+public:
+Data ();
+
 Data(int a, float b);
+void setX (int a);
+
 int getX ();
-void setX(int a);
+void setY(float b);
+float getY ();
+
 
 };
 #endif
